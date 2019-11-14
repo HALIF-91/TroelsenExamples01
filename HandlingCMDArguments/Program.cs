@@ -19,6 +19,14 @@ namespace HandlingCMDArguments
             }
 
             Console.ReadLine();
+
+            // предоставить аргументы в командной строке
+            // C:\HandlingCMDArguments\bin\Debug>HandlingCMDArguments.exe /arg1 -arg2 #arg3
+
+            //Hello World
+            //Arg: /arg1
+            //Arg: -arg2
+            //Arg: №arg3
         }
     }
 }
