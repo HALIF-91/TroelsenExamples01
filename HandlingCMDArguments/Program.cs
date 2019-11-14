@@ -12,6 +12,7 @@ namespace HandlingCMDArguments
         {
             // Получить аргументы с использованием System.Environment
             // string[] theArgs = Environment.GetCommandLineArgs();
+            // первый элемент массива theArgs содержит имя приложения, остальные аргументы командной строки
 
             foreach (var arg in args)
             {
@@ -23,10 +24,12 @@ namespace HandlingCMDArguments
             // предоставить аргументы в командной строке
             // C:\HandlingCMDArguments\bin\Debug>HandlingCMDArguments.exe /arg1 -arg2 #arg3
 
+            // указать аргументы ком. строки (в целях тестирования) также можно в свойствах проекта (свойства -> отладка)
+
             //Hello World
             //Arg: /arg1
             //Arg: -arg2
-            //Arg: №arg3
+            //Arg: #arg3
         }
     }
 }
