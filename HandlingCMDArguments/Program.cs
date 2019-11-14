@@ -26,7 +26,7 @@ namespace HandlingCMDArguments
             //Hello World
             //Arg: /arg1
             //Arg: -arg2
-            //Arg: №arg3
+            //Arg: #arg3
         }
     }
 }
