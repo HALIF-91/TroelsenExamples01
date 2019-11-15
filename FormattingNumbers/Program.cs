@@ -10,6 +10,8 @@ namespace FormattingNumbers
     {
         static void Main(string[] args)
         {
+            DisplayMessage();
+
             Console.WriteLine("The value 99999 in various formats:");
             Console.WriteLine("c format: {0:c}", 99999); // $99,999.00 для форматирования денежных значений, по умолчанию значение предваряется символом локальной валюты
             Console.WriteLine("d9 format: {0:d9}", 99999); // 000099999 указывает минимальное количество цифр для представления значения
@@ -22,6 +24,16 @@ namespace FormattingNumbers
             Console.WriteLine("X format: {0:X}", 99999); // 1869F
             Console.WriteLine("x format: {0:x}", 99999); // 1869f
             Console.ReadLine();
+        }
+
+        private static void DisplayMessage()
+        {
+            // Использование string.Format() для форматирования строкового литерала
+            string userMessage = string.Format("100000 in  hex is {0:x}", 10000);
+
+            // Для компиляции этой строки кода требуется
+            // сслыка на PresentationFramework.dll
+            System.Windows.MessageBox.Show(userMessage);
         }
     }
 }
