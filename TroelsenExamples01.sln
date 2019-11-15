@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingCMDArguments", "Han
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowSystemDetails", "ShowSystemDetails\ShowSystemDetails.csproj", "{F75BC515-881B-4502-AE96-25C485378172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassConsole", "ClassConsole\ClassConsole.csproj", "{62989CDE-413D-4890-B4BA-B4B6D907D42B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F75BC515-881B-4502-AE96-25C485378172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75BC515-881B-4502-AE96-25C485378172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75BC515-881B-4502-AE96-25C485378172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
