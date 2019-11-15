@@ -42,7 +42,7 @@ namespace ClassConsole
             Console.ForegroundColor = defaultForegroundColor;
             Console.BackgroundColor = defaultBackgroundColor;
 
-            // Очищать установленный буфер и область отображения консоли
+            // Очистить установленный буфер и область отображения консоли
             // Console.Clear();
             Console.ReadLine();
         }

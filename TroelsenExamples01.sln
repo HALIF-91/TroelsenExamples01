@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowSystemDetails", "ShowSy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassConsole", "ClassConsole\ClassConsole.csproj", "{62989CDE-413D-4890-B4BA-B4B6D907D42B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingNumbers", "FormattingNumbers\FormattingNumbers.csproj", "{72B1F39E-BAE1-4350-A423-7A5426EA79B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62989CDE-413D-4890-B4BA-B4B6D907D42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B1F39E-BAE1-4350-A423-7A5426EA79B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B1F39E-BAE1-4350-A423-7A5426EA79B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B1F39E-BAE1-4350-A423-7A5426EA79B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B1F39E-BAE1-4350-A423-7A5426EA79B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
