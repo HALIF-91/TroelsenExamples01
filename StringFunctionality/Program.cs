@@ -59,6 +59,7 @@ namespace StringFunctionality
             {
                 Console.WriteLine(item);
             }
+
             Console.ReadLine();
         }
     }
