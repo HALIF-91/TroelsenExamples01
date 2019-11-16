@@ -13,14 +13,14 @@ namespace FormattingNumbers
             DisplayMessage();
             
             Console.WriteLine("The value 99999 in various formats:");
-            Console.WriteLine("c format: {0:c}", 99999); // $99,999.00 для форматирования денежных значений, по умолчанию значение предваряется символом локальной валюты
+            Console.WriteLine("c format: {0:c}", 99999); // $99 999,00 для форматирования денежных значений, по умолчанию значение предваряется символом локальной валюты
             Console.WriteLine("d9 format: {0:d9}", 99999); // 000099999 указывает минимальное количество цифр для представления значения
-            Console.WriteLine("f3 format: {0:f3}", 99999); // 99999.000
-            Console.WriteLine("n format: {0:n}", 99999); // 99,999.00
+            Console.WriteLine("f3 format: {0:f3}", 99999); // 99999,000 указываем минимальное кол-во для представления дробной части
+            Console.WriteLine("n format: {0:n}", 99999); // 99 999,00 базовое числовое форматирование
 
             // Использование верхнего или нижнего регистра для x определяет, в каком регистре отображаются символы в шестнадцатеричном формате
-            Console.WriteLine("E format: {0:E}", 99999); // 9.999900E+004
-            Console.WriteLine("e format: {0:e}", 99999); // 9.999900e+004
+            Console.WriteLine("E format: {0:E}", 99999); // 9,999900E+004
+            Console.WriteLine("e format: {0:e}", 99999); // 9,999900e+004
             Console.WriteLine("X format: {0:X}", 99999); // 1869F
             Console.WriteLine("x format: {0:x}", 99999); // 1869f
             Console.ReadLine();

@@ -20,10 +20,13 @@ namespace DateTimeAndTimeSpan
             // Проверка попадет ли данный экземпляр в диапазон летнего времени для текущего часового пояса
             Console.WriteLine("Daylight savings: {0}",  dateTime.IsDaylightSavingTime());
 
-            // Сеейчас месц декабрь
+            // AddMonths()
+            // Добавить месяцы
             dateTime = dateTime.AddMonths(2);
 
             Console.WriteLine("\nThe day of {0}", dateTime.Date);
+
+            // IsDaylightSavingTime()
             // Проверка попадет ли данный экземпляр в диапазон летнего времени для текущего часового пояса
             Console.WriteLine("Daylight savings: {0}",  dateTime.IsDaylightSavingTime());
 
@@ -31,6 +34,7 @@ namespace DateTimeAndTimeSpan
             TimeSpan timeSpan = new TimeSpan(4, 30, 0);
             Console.WriteLine(timeSpan);
 
+            // Subtract()
             // Вычесть 15 минут из текущего TimeSpan и вывести результат
             Console.WriteLine(timeSpan.Subtract(new TimeSpan(0, 15, 0)));
 
