@@ -11,7 +11,7 @@ namespace FormattingNumbers
         static void Main(string[] args)
         {
             DisplayMessage();
-
+            
             Console.WriteLine("The value 99999 in various formats:");
             Console.WriteLine("c format: {0:c}", 99999); // $99,999.00 для форматирования денежных значений, по умолчанию значение предваряется символом локальной валюты
             Console.WriteLine("d9 format: {0:d9}", 99999); // 000099999 указывает минимальное количество цифр для представления значения
