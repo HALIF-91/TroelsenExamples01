@@ -11,7 +11,7 @@ namespace SystemArrayFunctionality
         static void Main(string[] args)
         {
             string[] gothicBands = { "Tones on Tail", "Bauhaus", "Sisters of Mercy" };
-
+            
             Console.WriteLine("-> Here is the array:");
             foreach (string band in gothicBands)
             {
@@ -32,6 +32,8 @@ namespace SystemArrayFunctionality
             Console.WriteLine("\n");
 
             // Clear()
+            // размер массива не изменяется, очищенные элементы заменяются базовым значением
+            // 0 - для чисел, null - для объектных ссылок, false - для булевых выражений
             Console.WriteLine("-> Cleared out all but one...");
             Array.Clear(gothicBands, 1, 2);
 
