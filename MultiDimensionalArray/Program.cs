@@ -13,7 +13,7 @@ namespace MultiDimensionalArray
             // Создание прямоугольного многомерного массива
             int row = 6, column = 5;
             int[,] matrix = new int[row, column];
-
+            
             for (int i = 0; i < row; i++)
             {
                 for (int j = 0; j < column; j++)
@@ -23,9 +23,13 @@ namespace MultiDimensionalArray
                 }
                 Console.WriteLine();
             }
+            
             // matrix.Length
             // Возвращает общее кол-во элементов, а не кол-во строк
-            Console.WriteLine("Кол-во элементов в многомерном массиве: {0}\n", matrix.Length);
+            Console.WriteLine("Кол-во элементов в многомерном массиве: {0}", matrix.Length);
+
+            // Rank
+            Console.WriteLine($"Кол-во измерений в массиве - {matrix.Rank}\n");
 
             // Создание зубчатого многомерного массива
             int[][] jagArray = new int[row][];
@@ -41,7 +45,8 @@ namespace MultiDimensionalArray
             }
             // jagArray.Length
             // Возвращает кол-во строк, а не общее кол-во элементов
-            Console.WriteLine(jagArray.Length);
+            Console.WriteLine("Кол-во строк в зубчатом массиве: {0}", jagArray.Length);
+
             Console.ReadLine();
         }
     }
