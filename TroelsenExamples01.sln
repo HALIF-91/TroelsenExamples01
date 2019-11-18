@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemArrayFunctionality", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumTest", "EnumTest\EnumTest.csproj", "{100BE39C-D5DA-4327-B974-826A7D74B6E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{A2A07654-53C7-4AF8-8BA2-5D26BF98D162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{100BE39C-D5DA-4327-B974-826A7D74B6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100BE39C-D5DA-4327-B974-826A7D74B6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100BE39C-D5DA-4327-B974-826A7D74B6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A07654-53C7-4AF8-8BA2-5D26BF98D162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A07654-53C7-4AF8-8BA2-5D26BF98D162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A07654-53C7-4AF8-8BA2-5D26BF98D162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A07654-53C7-4AF8-8BA2-5D26BF98D162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
