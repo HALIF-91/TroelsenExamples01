@@ -19,6 +19,7 @@ namespace ConsoleApp1
             {
                 shape.Draw();
             }
+            
             Console.ReadLine();
         }
     }
