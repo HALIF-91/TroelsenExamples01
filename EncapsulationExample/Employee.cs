@@ -6,20 +6,8 @@ using System.Threading.Tasks;
 
 namespace EncapsulationExample
 {
-    class Employee
+    partial class Employee
     {
-        private int id;
-        private string name;
-        private int age;
-        private float pay;
-        private string empSSN;
-        public Employee() { }
-        public Employee(int id, string name, float pay) : this(id, name, 0, 0, null) { }
-        public Employee(int id, string name, int age, float pay, string ssn)
-        {
-            Name = name; Id = id; Age = age;
-            Pay = pay; empSSN = ssn;
-        }
         public int Id
         {
             get { return id; }
@@ -57,6 +45,12 @@ namespace EncapsulationExample
             Console.WriteLine("Id: {1}", Id);
             Console.WriteLine("Age: {2}", Age);
             Console.WriteLine("Pay: {3}", Pay);
+        }
+        public double GetBenefitCost() { return empBenefits.ComputePayDeduction(); }
+        public BenefitPackage Benefits
+        {
+            get { return empBenefits; }
+            set { empBenefits = value; }
         }
     }
 }

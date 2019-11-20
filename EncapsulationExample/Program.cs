@@ -14,6 +14,10 @@ namespace EncapsulationExample
             employee.Name = "Henry";
             Console.WriteLine(employee.Name);
 
+            Manager chucky = new Manager("Chucky", 50, 92, 100000, "333-23-2322", 9000);
+            double cost = chucky.GetBenefitCost();
+            Console.WriteLine(cost);
+
             Console.ReadLine();
         }
     }
