@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationExample", "Enc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializer", "ObjectInitializer\ObjectInitializer.csproj", "{72831D60-C3D7-4489-BF74-CF33BAB67799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerTypes", "InnerTypes\InnerTypes.csproj", "{592A3B11-7447-4514-97B9-3F12B8811C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesApp", "ShapesApp\ShapesApp.csproj", "{5E5C8233-D770-4663-876D-73325F26201B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{72831D60-C3D7-4489-BF74-CF33BAB67799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72831D60-C3D7-4489-BF74-CF33BAB67799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72831D60-C3D7-4489-BF74-CF33BAB67799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592A3B11-7447-4514-97B9-3F12B8811C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592A3B11-7447-4514-97B9-3F12B8811C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592A3B11-7447-4514-97B9-3F12B8811C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592A3B11-7447-4514-97B9-3F12B8811C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5C8233-D770-4663-876D-73325F26201B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5C8233-D770-4663-876D-73325F26201B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5C8233-D770-4663-876D-73325F26201B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5C8233-D770-4663-876D-73325F26201B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
