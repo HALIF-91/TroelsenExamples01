@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMethods", "ObjectMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleException", "SimpleException\SimpleException.csproj", "{A836391C-5ABB-48AE-9E81-248348977698}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomException\CustomException.csproj", "{B80F6BB6-9DF3-4FD6-BB1D-82D7E2B2A98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{A836391C-5ABB-48AE-9E81-248348977698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A836391C-5ABB-48AE-9E81-248348977698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A836391C-5ABB-48AE-9E81-248348977698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80F6BB6-9DF3-4FD6-BB1D-82D7E2B2A98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80F6BB6-9DF3-4FD6-BB1D-82D7E2B2A98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80F6BB6-9DF3-4FD6-BB1D-82D7E2B2A98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80F6BB6-9DF3-4FD6-BB1D-82D7E2B2A98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

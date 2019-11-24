@@ -48,6 +48,7 @@ namespace SimpleException
                 }
             }
 
+            NullReferenceException exception = new NullReferenceException();
             Console.ReadLine();
         }
     }
