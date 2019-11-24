@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReUseException", "ReUseException\ReUseException.csproj", "{270B7408-7B92-466B-97C8-9B10DD78DC8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterface", "CustomInterface\CustomInterface.csproj", "{28792F5C-6E29-460B-B22B-DF9A702B2E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{270B7408-7B92-466B-97C8-9B10DD78DC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270B7408-7B92-466B-97C8-9B10DD78DC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270B7408-7B92-466B-97C8-9B10DD78DC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28792F5C-6E29-460B-B22B-DF9A702B2E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28792F5C-6E29-460B-B22B-DF9A702B2E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28792F5C-6E29-460B-B22B-DF9A702B2E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28792F5C-6E29-460B-B22B-DF9A702B2E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
