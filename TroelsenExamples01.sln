@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterface", "CustomIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNameClash", "InterfaceNameClash\InterfaceNameClash.csproj", "{DEBE5EDF-0DF0-4644-B0AE-1B02005A2CB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceHierarchy", "InterfaceHierarchy\InterfaceHierarchy.csproj", "{ED7B16FE-023B-4107-9995-57F6169C5E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiInterfaceHierarchy", "MultiInterfaceHierarchy\MultiInterfaceHierarchy.csproj", "{BD710791-9C77-4D51-AD52-182B0A673071}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{DEBE5EDF-0DF0-4644-B0AE-1B02005A2CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEBE5EDF-0DF0-4644-B0AE-1B02005A2CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEBE5EDF-0DF0-4644-B0AE-1B02005A2CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7B16FE-023B-4107-9995-57F6169C5E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7B16FE-023B-4107-9995-57F6169C5E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7B16FE-023B-4107-9995-57F6169C5E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7B16FE-023B-4107-9995-57F6169C5E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD710791-9C77-4D51-AD52-182B0A673071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD710791-9C77-4D51-AD52-182B0A673071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD710791-9C77-4D51-AD52-182B0A673071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD710791-9C77-4D51-AD52-182B0A673071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
