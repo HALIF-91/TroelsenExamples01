@@ -20,6 +20,12 @@ namespace InterfaceNameClash
             IDrawToPrinter printer = octagon;
             printer.Draw();
 
+            // Сокращенная нотация, если переменная интерфейса не нужна
+            ((IDrawToPrinter)octagon).Draw();
+
+            // Можно было бы также использовать ключевое слово as
+            if (octagon is IDrawToMemory)
+                ((IDrawToMemory)octagon).Draw();
             Console.ReadLine();
         }
     }
