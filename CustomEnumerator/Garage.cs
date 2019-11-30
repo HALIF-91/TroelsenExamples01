@@ -18,6 +18,23 @@ namespace CustomEnumerator
             carArray[3] = new Car("Fred", 30);
         }
 
+        public IEnumerable GetTheCars(bool returnReversed)
+        {
+            if (returnReversed)
+            {
+                for (int i = carArray.Length - 1; i >= 0; i--)
+                {
+                    yield return carArray[i];
+                }
+            }
+            else
+            {
+                foreach (Car car in carArray)
+                {
+                    yield return car;
+                }
+            }
+        }
         public IEnumerator GetEnumerator()
         {
             return carArray.GetEnumerator();

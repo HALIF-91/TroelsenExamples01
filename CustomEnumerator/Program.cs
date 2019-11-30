@@ -25,7 +25,12 @@ namespace CustomEnumerator
             {
                 Console.WriteLine($"{car.PetName} is going {car.CurrentSpeed} MPH");
             }
+            Console.WriteLine();
 
+            foreach (Car car in carLot.GetTheCars(true))
+            {
+                Console.WriteLine($"{car.PetName} is going {car.CurrentSpeed} MPH");
+            }
             Console.ReadLine();
         }
     }
