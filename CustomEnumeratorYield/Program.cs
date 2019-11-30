@@ -26,7 +26,7 @@ namespace CustomEnumeratorYield
                     foreach (Radio radio in radios)
                         Console.WriteLine($"radio has numb: {radio.Numb}");
             }
-
+            //
             Console.ReadLine();
         }
     }
