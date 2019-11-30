@@ -22,5 +22,19 @@ namespace CustomEnumerator
         {
             return carArray.GetEnumerator();
         }
+
+        /*
+        public IEnumerator GetEnumerator()
+        {
+            foreach (Car car in carArray)
+            {
+                yield return car;
+            }
+        }
+
+        
+             // При достижении оператора yield return производится сохранение текущего местоположения в
+             // контейнере, а при следующем вызове итератора выполнение начинается с этого местоположения
+        */
     }
 }
