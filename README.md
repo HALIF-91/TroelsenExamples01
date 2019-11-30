@@ -30,3 +30,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 27) множественное наследование посредством интерфейсных типов, проект - MultiInterfaceHierarchy
 28) Интерфейсы IEnumerable и IEnumerator, проект - CustomEnumerator
 29) Ключевое слово yield (построение методов итератора), проект - CustomEnumerator, CustomEnumeratorYield
+30) Глубокое клонирование объекта, проект - CloneablePoint
