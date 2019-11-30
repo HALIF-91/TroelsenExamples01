@@ -25,10 +25,11 @@ namespace ObjectOverrides
             }
 
             // Clone() вызывает метод protected MemberwiseClone()
+            // но если Person содержит свойства или поля ссылочного типа, то метод MemberwiseClone()
+            // копировал бы ссылки на эти объекты (т.е. создавал поверхностную копию)
             Person p3 = p1.Clone() as Person;
             if(p3 != null)
             {
-                
                 Console.WriteLine(p1.Name + " = " + p3.Name);
             }
             
